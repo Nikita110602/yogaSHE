@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .container-signup{
+    background-color: rgb(244, 159, 207);
+    text-align: center;
+    padding-top: 8%;
+    font-size: 30px;
+    background-image: url(https://explain.ninja/wp-content/uploads/2023/03/Screenshot-2023-03-20T150456.556.png);
+  }
+  .one{
+    padding-bottom: 3%;
+    
+    font-size: 130%;
+    color: #876445;
+    
+  }
+  .two{
+    padding-bottom: 4%;
+    font-size: 130%;
+    color: #876445;
+  }
+  .third{
+    padding-bottom: 4%;
+    font-size: 130%;
+    color: #876445;
+  }
+  .four{
+    padding-bottom: 4%;
+    font-size: 130%;
+    color: #876445;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    height: 20px;
+    border-radius: 30%;
+  }
+  input[type="password"] {
+    width: 50%;
+    height: 40%;
+    border-radius: 30%;
+    
+  }
+  form {
+    border: 3px solid #ccc;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 100px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color: white;
+    width:30%;
+    height: 85vh;
+  }
+  button{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+   
+    background: #876445;
+  color: #fff;
+  }
+  
+  button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+  }
+  
+  .container{
+    display:flex;
+    justify-content: center;
+  }
+  
+  

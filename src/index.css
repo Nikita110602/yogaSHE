@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B1D7B4;
+  opacity: 0.7;
+  padding: 0.8rem;
+  z-index: 100;
+  
+}
+.nav ul{
+  padding-right: 30%;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #FF6000;
+  
+ 
+}
+
+.headings ul {
+  list-style: none;
+  display: flex;
+}
+
+.headings li {
+  margin-right: 1rem;
+}
+
+.headings a {
+  text-decoration: none;
+  color: #19A7CE;
+  font-size: 1.2rem;
+}
+
+.social-media ul {
+  list-style: none;
+  display: flex;
+}
+
+.social-media li {
+  margin-right: 1rem;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #c13584;
+}
+
+.github {
+  color: #211f1f;
+}
+
+/* Media queries for responsive navigation */
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .headings {
+    margin: 1rem;
+  }
+   .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+
+  .headings ul {
+    flex-direction: column;
+  }
+
+  .headings li {
+    margin: 0.4rem 0;
+  }
+
+  .social-media {
+    margin-top: 1rem;
+  }
+
+  .social-media ul {
+    flex-direction: column;
+  }
+
+  .social-media li {
+    margin: 0.5rem 0;
+  }
+  .hero-section{
+    margin-top: 50%;
+  }
+
+}
+
+.hero-section {
+  background-color: #f2f2f2;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 45%; */
+  padding-top: 12%;
+  
+}
+
+.hero-section p {
+  font-size: 3rem;
+  color:#C07F00;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 50%;
+  
+}
+
+.hero-section h3 {
+   padding-bottom: 20%; 
+   padding-left: 45%; 
+  color: #1F8A70;
+  
+}
+.headings ul li:hover > a {
+  transform-origin: left;
+  color: #1F8A70;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+li{
+margin: 14%;
+display: inline;
+padding-right: 10%;
+
+}
+.hero-section{
+  background: url(https://i.pinimg.com/564x/f5/25/ab/f525abf3fdec1832b105c02cfd8a753b.jpg);
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  align-content: center;
+  margin-top: 10%;
+}
+
+.hero-section{
+  width:100%;
+  height:100vh;
+  
+}
+
+  
+
+
+
+
+
+
