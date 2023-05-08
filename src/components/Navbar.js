@@ -18,12 +18,10 @@ const Navbar = () => {
         <h1>
             <span>Y</span>ogaSHE
         </h1>
-
         </div>
-       
             <ul>
                 <li >
-                    <NavLink to="/">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
                 <NavLink to="/Learn">Learn</NavLink>
