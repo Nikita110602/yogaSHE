@@ -6,30 +6,44 @@
     font-size: 32px;
     font-weight: bold;
    margin-top: 10%;
-    
+   color:  #FF6000;
   }
-  img {
+  .img1{
     width: 100%;
     max-width: 400px;
     margin-top: 20px;
+    padding-left: 50px;
   }
   .asan {
     display: flex;
     }
     
-    
-    .steps h1 {
-    font-size: 20px;
-    padding-left: 20px;
-    color: black;
+    .posterName h1 {
+    font-size: 35px;
     float:right;
-    
+    padding-right: 55%;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    color: #212A3E;
     }
+
     .posterName{
         margin-left: 10%;
-        
+
     }
-    .steps p{
-    padding-top: 20px;
+    .posterName p{
+    margin-top: 10%;
+    font-size: 20px;
+    color: #394867;
     }
+    .Name{
+        margin-left: 10%;
+
+    }
+    .Name p{
+    margin-top: 10%;
+    font-size: 20px;
+    color: #394867;
+    }
+    
   
