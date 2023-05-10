@@ -35,8 +35,26 @@ const Thyroid = () => {
         <h1>3. Matsyasana</h1>
         <p>When it comes to yoga poses for improving thyroid health, Matsyasana is one of the best asanas for reversing hypothyroidism. It involves stretching the throat and neck, which stimulates the thyroid glands. This pose increases the blood flow in the thyroid glands and is beneficial for individuals suffering from hypothyroidism.</p>
         </div>
-        
     </div>
+    <div className="asan">
+    <div className="img1">
+        <img src="https://images-prod.healthline.com/hlcmsresource/images/400x400_10_Yoga_Poses_That_Can_Improve_the_Health_of_your_Thyroid_Legs_Up_the_Wall_Pose.gif" alt="" />
+        </div>
+        <div className='Name'>
+        <h1>4. Viparita Karani</h1>
+        <p>Viparita Karani or Inverted Lake Pose stimulates blood flow to the thyroid glands and regulates thyroid functioning. Moreover, it helps in curing insomnia, relieving stress and fighting anxiety.</p>
+        </div>
+        </div>
+        <div className="asan">
+    <div className="img1">
+        <img src="https://images-prod.healthline.com/hlcmsresource/images/400x400_10_Yoga_Poses_That_Can_Improve_the_Health_of_your_Thyroid_Boat_Pose.gif" alt="" />
+        </div>
+        <div className='Name'>
+        <h1>5.  Navasana </h1>
+        <p>The way your neck is positioned during a Navasana or Boat Pose has a positive effect on the thyroid glands in the human body. It tones the muscles of the abdomen and strengthens the lower back.</p>
+        </div>
+        </div>
+
     
   </>
 }

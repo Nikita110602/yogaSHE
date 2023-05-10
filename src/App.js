@@ -12,6 +12,8 @@ import LogIn from "./components/LogIn"
 import Periods from "./components/Periods"
 import Pcod from "./components/Pcod"
 import Thyroid from "./components/Thyroid"
+import  "./components/pcod.css"
+
 
 import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom"
 const App = () => {
@@ -36,8 +38,9 @@ const App = () => {
     </Router>
     
     </>
-  )
+    )
 }
+    
 
 export default App 
 

@@ -1,0 +1,51 @@
+.container-pcod {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.asan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.asan1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 {
+  width: 50%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.Name, .posterName {
+  width: 50%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
