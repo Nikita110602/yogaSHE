@@ -1,0 +1,37 @@
+.container-pcod {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .asan {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .img2 {
+    flex: 1;
+  }
+  
+  .img2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Name {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .Name h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .Name p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  

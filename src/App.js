@@ -13,6 +13,7 @@ import Periods from "./components/Periods"
 import Pcod from "./components/Pcod"
 import Thyroid from "./components/Thyroid"
 import  "./components/pcod.css"
+import  "./components/periods.css"
 
 
 import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom"
